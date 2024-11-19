@@ -33,11 +33,11 @@ def create_deck():
 def process_card(card_number):
     if card_number == 11:
         return "Jack"
-    if card_number == 12:
+    elif card_number == 12:
         return "Queen"
-    if card_number == 13:
+    elif card_number == 13:
         return "King"
-    if card_number == 14:
+    elif card_number == 14:
         return "Ace"
     else:
         return card_number
